@@ -1,3 +1,4 @@
+# Terraform Github Provider Documentation https://registry.terraform.io/providers/integrations/github/latest/docs/resources/repository
 resource "github_repository" "Terraform-Repo" {
   name        = "Terraform Repo"
   description = "This repository was created using terraform"

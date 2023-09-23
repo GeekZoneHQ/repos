@@ -1,19 +1,20 @@
 terraform {
   cloud {
-    organization = "geekzone"
+    organization = "vao11-lab"
+
     workspaces {
-      name = "repos"
+      name = "cli-vao11testing-project01"
     }
   }
 
   required_providers {
-    hcp = {
-      source = "hashicorp/hcp"
-      version = "0.61.0"
-    }
+    # hcp = {
+    #   source = "hashicorp/hcp"
+    #   version = "0.71.0"
+    # }
     github = {
       source = "integrations/github"
-      version = "5.28.0"
+      version = "5.34.0"
     }
   }
 }

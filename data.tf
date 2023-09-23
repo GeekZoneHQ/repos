@@ -1,3 +1,3 @@
-data "hcp_vault_secrets_app" "github" {
-  app_name = "github"
-}
+# data "hcp_vault_secrets_app" "github" {
+#   app_name = "github_token"
+# }
